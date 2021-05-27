@@ -1,0 +1,136 @@
+@media (device-width: 100vw) and (device-height: 100vh) {
+    #title {
+      padding: 0px !important;
+    }
+  }
+html {
+    scroll-behavior: smooth;
+  }
+#title{
+  margin-top: 5px;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color:#fff;
+  overflow-x: hidden;
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size:32px;
+  line-height: 1;
+  color: #113963;
+}
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  line-height: 1;
+}
+h3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  color:#000;
+}
+
+p{
+  color:#fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  /* font-size: 1.5rem; */
+  font-size:16px;
+  line-height: 1.5;
+}
+hr{
+  border-style: solid none none;
+  border-color: #486e99;
+  border-width: 4px;
+  border-radius:5px;
+  width:40%;
+  text-align:left;
+  margin-left:0;
+}
+
+h1 .thick{
+  font-size:16px;
+}
+
+/* Navigation Bar */
+.container-fluid{
+  padding: 0 0 4%;
+}
+.navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* background-color: #113963; */
+  display:flex;
+  padding:16px 112px;
+  background:#1b2021;
+  align-items:center;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:5000;
+  box-shadow:0 2px 2px #1b2021;
+}
+.navbar-brand{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  font-weight:bold;
+}
+.nav-item{
+  padding:0 18px;
+  font-family: 'Poppins', sans-serif;
+}
+.nav-link{
+  font-size: 1.2r1m;
+  color:#000;
+}
+.other{
+  background-color: #d99879;
+  padding:1%;
+}
+.p{
+  text-align: center;
+  padding-bottom:300px;
+  font-size:1.2rem;
+  font-weight:bold;
+}
+#footer{
+  padding:1%;
+  background-color:#000;
+  text-align: center;
+}
+.copy{
+  color:#fff;
+  font-size: 1.2rem;
+}
+.divide{
+  border-style: solid none none;
+  border-color: #000;
+  border-width: 4px;
+  border-radius:5px;
+  width:100%;
+  text-align:left;
+  margin-left:0;
+}
+#second{
+  padding:100px;
+}
+#third{
+  padding:100px;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+.card{
+  /* background-color: #d8ac9c; */
+  background-color: #f2f4c3;
+}
+.d{
+  padding-top:300px;
+  text-align: center;
+  color:#fff;
+  font-size: 5rem;
+}
