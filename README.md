@@ -1,2 +1,2 @@
 # Notes_Haul.github.io
-![Screenshot](note.png)
+![Screenshot](notes.png)
